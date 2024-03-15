@@ -47,7 +47,7 @@
             height: 100%; */
         background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
       }
-      .popular {
+      /* .popular {
         text-align: center;
         padding: 30px;
         display: flex;
@@ -58,7 +58,23 @@
       
       .popular h1 {
         padding-bottom: 2.5rem;
+      } */
+      .popular{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
       }
+
+      .popular img{
+        
+        width: 50px;
+        height: 50px;
+      }
+    
+
+
+
+
       .he {
         color: grey;
         word-spacing: 5px;
@@ -67,11 +83,27 @@
         text-align: center;
         padding-bottom: 3rem;
       }
+      /* places */
+      .places{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        padding-left: 100px;
+      }
+      .box {
+        display: flex;
+        gap: 20px;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+        height: 70px;
+        width: 270px;
+        border-radius: 10px;
+        align-items: center; 
+        
+      }
+      
 
       /* footer */
       .footer {
-        /* display: flex; */
-        /* justify-content: space-around; */
         background-color: rgba(0, 0, 0, 0.1);
         padding: 0 3rem;
       }
@@ -132,6 +164,7 @@
         
       }
 
+
       
     </style>
   </head>
@@ -148,18 +181,17 @@
         <h1>Find the best restaurants, cafés <br />and bars in India</h1>
       </div>
     </header>
-    <div class="popular">
-        <div class="pop1">
-      <h1>
-        Popular locations in</h1></div>
-        <div class="image" style="height: 96px;" >
-          <img src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" height="50" width="50"/>
-        </div>
-<div>
-            <h1>
-        India
-      </h1>
-      </div></div>
+  
+
+      <div class="popular">
+        
+          <h1>Popular Location in</h1>
+          <img src="india.png">
+          <h1>India</h1>
+        
+      </div>
+
+
       <div class="he">
       <h3>
         From swanky upscale restaurants to the cosiest hidden gems serving the
@@ -171,6 +203,165 @@
       </h3><br>
       <h3>just like you, to find your next great meal.</h3><br>
     </div></body>
+
+    <!-- places -->
+    <div class="places">
+      <div class="row">
+        <div class="box">
+          <div><h4>Ajmer Restaurants</h4></div>
+        <div><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="box">
+         <div> <h4>Agra Restaurants</h4></div>
+        <div><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="box">
+          <div><h4>Ahmedabad Restaurants</h4></div>
+        <div><i class="fa-solid fa-chevron-right"></i></div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="box">
+        <div><h4>Bengaluru Restaurants</h4></div>
+      <div><i class="fa-solid fa-chevron-right"></i></div>
+      
+    </div>
+  </div>
+  <div class="row">
+    <div class="box">
+      <div><h4>Bhopal Restaurants</h4></div>
+    <div><i class="fa-solid fa-chevron-right"></i></div>
+    
+  </div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Bhubaneswar Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Chandigarh Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Chennai Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Cuttack Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Dehradun Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Delhi Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Darjeeling Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Hyderabad Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Jaipur Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Jabalpur Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Kolkata Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Kota Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Kanpur Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Mumbai Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Nagpur Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Pune Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+<div class="row">
+  <div class="box">
+    <div><h4>Trichy Restaurants</h4></div>
+  <div><i class="fa-solid fa-chevron-right"></i></div>
+  
+</div>
+</div>
+
+    </div>
 
     <!-- footer -->
 
@@ -256,7 +447,7 @@
           </div>
           </div>
         </div>
-      </div>
+      
 
       <hr />
 
